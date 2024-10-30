@@ -1,0 +1,96 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url('donate.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #0d0d0e;
+}
+
+header {
+    background-color: #333;
+    color: #1ef345;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hero {
+    background: url('hero.jpg.jpg') no-repeat center center/cover;
+    color: #050505;
+    padding: 100px 20px;
+}
+
+#hero .cta-button {
+    padding: 10px 20px;
+    background-color: #59027d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.program {
+    margin: 20px 0;
+}
+
+#donate form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#donate form input, #donate form select, #donate form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#donate form button {
+    background-color: #4892ed;
+    color: #fff;
+    cursor: pointer;
+}
+
+#donate form button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
